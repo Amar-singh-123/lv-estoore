@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/data',[DataController::class,'index']);
 Route::post('/data',[DataController::class,'index']);
 Route::put('/data',[DataController::class,'index']);
+Route::patch('/data',[DataController::class,'index']);
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
