@@ -3,7 +3,7 @@
 /public/build
 /public/hot
 /public/storage
-/storage/*.key
+# /storage/*.key
 /vendor
 .env
 .env.backup
@@ -18,4 +18,4 @@ yarn-error.log
 /.idea
 /.vscode
 
-.vercel
+
