@@ -31,9 +31,7 @@ class DataController extends Controller
         ],
     ];
 
-    $userData = User::all();
-
-
-    return $userData;
+ 
+    return $data;
   }
 }
