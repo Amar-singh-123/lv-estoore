@@ -20,6 +20,7 @@
     RewriteRule ^ index.php [L]
     
     # remove public prefix from url path
-    RewriteCond %{REQUEST_URI} !^/public/
-    RewriteRule ^(.*)$ /public/$1 [L,QSA]
+    # RewriteCond %{REQUEST_URI} !^/public/
+    # RewriteRule ^(.*)$ /public/$1 [L,QSA]
+    RewriteRule ^(.*)$ public/$1 [L]
 </IfModule>
