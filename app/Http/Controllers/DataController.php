@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use GuzzleHttp\Psr7\Response;
+
 use Illuminate\Http\Request;
 
 class DataController extends Controller
