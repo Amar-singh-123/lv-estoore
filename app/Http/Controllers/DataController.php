@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-
+use App\Models\User;
 use Illuminate\Http\Request;
 
 class DataController extends Controller
@@ -31,6 +31,9 @@ class DataController extends Controller
         ],
     ];
 
-    return $data;
+    $userData = User::all();
+
+
+    return $userData;
   }
 }
